@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body {
+
+    background-color: #3f37ce40;
+    font-family: sans-serif;
+}
+
+#main-part {
+    background: white;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 20px 28px;
+    box-shadow: 0 12px 1000px #00000036;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#country{
+    cursor: pointer;
+}
+select option {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.input-box:focus {
+    outline: 1px solid #6366f1;
+}
+
+.radio-btn {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 16px;
+}
+
+.input-box2 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid #d1d5db;
+    /* margin-bottom: 16px; */
+    outline: none;
+    background: #6366f1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.input-box2:hover {
+    background-color: #4b4dd6;
+}
+
+.input-box::placeholder {
+    color: #a2a2a2;
+}
+
+#bio {
+    resize: none;
+}
+
+.dff{
+    background-color: #4b4dd6;
+}

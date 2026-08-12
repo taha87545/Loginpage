@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>login</title>
+</head>
+
+<body>
+    <div id="main-part">
+        <h2 class="main-text">signup form</h2>
+        <form action="#">
+            <label for="fullname">full name</label>
+            <input type="text" id="fullname" placeholder="e.g taha esmaeili" class="input-box"  required>
+
+            <label for="Email">Email</label>
+            <input type="email" placeholder="you@example.com" id="Email" class="input-box">
+
+            <label for="password">password</label>
+            <input type="password" name="" id="password" placeholder="choose strong password" class="input-box">
+
+            <label for="bio">short bio</label>
+            <textarea name="" id="bio" placeholder="write a short bio" rows="3" class="input-box"></textarea>
+
+            <label for="country">country</label>
+            <select class="input-box" name="country" id="country">
+                <option value="" disabled selected>select your country</option>
+                <option value="">Iran</option>
+                <option value="">germany</option>
+                <option value="">UK</option>
+                <option value="">USA</option>
+                <option value="">china</option>
+            </select>
+
+            <label for="">Gender</label>
+            <div class="radio-btn">
+                <label for="male">
+                    <input type="radio" name="Gender" id="male" class="dff"> male
+                </label>
+                <label for="female">
+                    <input type="radio" name="Gender" id="female" class="dff"> female
+                </label>
+                <label for="other">
+                    <input type="radio" name="Gender" id="other" class="dff"> other
+                </label>
+            </div>
+
+            <button  type="submit" class="input-box2">register</button>
+        </form>
+    </div>
+</body>
+
+</html>
+<?php
+
+?>
